@@ -1,0 +1,138 @@
+/*begining*/
+body{
+    background-color:grey;
+  background-image:url(abc.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+
+header{
+    height:150px;
+    width:150%;
+   background-position:right;
+   
+
+}
+.nav{
+    text-align:right;
+    height:20px;
+    font-size:20px;
+}
+.nav a{
+   text-decoration:none;
+   margin-right:100px;
+    background:black;
+    border:3px; 
+}
+.nav a:hover{
+   color:green;
+   border:3px;
+}
+.contact-title{
+    margin-right:1500px;
+    margin-top:100px;
+    color:gray;
+    font-weight:bolder;
+    color:red;
+   height:90px;
+   
+
+}  
+.contact-title h1{
+margin-top:60px;
+color:white;
+} 
+.contact-title h2{
+color:red;
+}
+form{
+margin-top:20px;
+color:white;
+}
+
+
+h1{
+   text-align:center;
+   font-size:40px;
+   color:red;    
+}
+.image img{
+   width:150px;
+   height:150px;
+   margin-right:200px; 
+   border:2px solid blue;
+
+}
+tr,th{
+color:green;
+width:100px;
+height:100px;
+}
+nav{
+ text-align:right;
+    height:60px;
+    font-size:20px;
+
+}
+nav a{
+   text-decoration:none;
+   margin-right:100px;
+    background:grey;
+    border:3px; 
+}
+nav a:hover{
+   color:green;
+   border:3px;
+}
+.main{
+max-width:1000px;
+margin:auto;
+
+}
+h1{
+font-size:80px;
+color:blue;
+}
+.row{
+margin:5px-12px;
+}
+/*padding*/
+.rows
+.row>.column{
+padding:8px;
+
+}
+.column{
+float:left;
+width:50%;
+color:white;
+}
+/*responive*/
+@media screen and(max-width:900px){
+.column{
+width:50%; 
+
+}
+@media screen and(max-width:500px){
+.column{
+width:110px;
+}
+/*content*/
+.content{
+padding:30px;
+}
+.h3{
+height:10px;
+}
+}
+}
+}
+
+
+
+
+    
+
+      
+
+
