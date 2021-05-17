@@ -33,8 +33,9 @@ header{
     margin-top:100px;
     color:gray;
     font-weight:bolder;
-    color:red;
-   height:90px;
+    color:blue;
+    height:90px;
+   
    
 
 }  
@@ -124,9 +125,7 @@ padding:30px;
 .h3{
 height:10px;
 }
-}
-}
-}
+
 
 
 
