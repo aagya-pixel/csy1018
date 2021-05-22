@@ -28,14 +28,13 @@ header{
 .nav a:hover{
    color:green;
    border:3px;
-
-}
-.image img{
-   width:150px;
-   height:150px;
-   margin-right:200px; 
-   border:2px;
-   }
+ }
+ nav{
+    text-align:right;
+    height:40px;
+    font-size:40px;
+    border:1px solid:red;
+ }
 .contact-title{
     margin-right:1500px;
     margin-top:100px;
@@ -58,7 +57,6 @@ form{
 margin-top:20px;
 color:white;
 }
-
 
 h1{
    text-align:center;
@@ -134,7 +132,12 @@ padding:30px;
 .h3{
 height:10px;
 }
+.screenshot{
 
+}
+.p{
+  text-align:right;
+}
 }
 
 
