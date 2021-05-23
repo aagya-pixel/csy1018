@@ -13,27 +13,22 @@ header{
    
 
 }
-.nav{
+nav{
     text-align:right;
     height:20px;
     font-size:20px;
     border:1px solid:red;
 }
-.nav a{
+nav a{
    text-decoration:none;
    margin-right:100px;
     background:black;
     border:3px; 
 }
+
 .nav a:hover{
    color:green;
    border:3px;
- }
- nav{
-    text-align:right;
-    height:40px;
-    font-size:40px;
-    border:1px solid:red;
  }
 .contact-title{
     margin-right:1500px;
@@ -41,9 +36,7 @@ header{
     color:black;
     font-weight:bolder;
     color:blue;
-    height:90px;
-   
-   
+    height:90px;   
 
 }  
 .contact-title h1{
@@ -131,15 +124,8 @@ padding:30px;
 }
 .h3{
 height:10px;
-}
-.screenshot{
 
 }
-.p{
-  text-align:right;
-}
-}
-
 
 
 
