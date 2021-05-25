@@ -19,7 +19,7 @@ body{
 
 nav{
     text-align:right;
-    height:20px;
+    height:40px;
     font-size:20px;
     border:1px solid:red;
 }
@@ -36,41 +36,52 @@ nav a{
    color:green;
    border:3px;
  }
+img{
+   width:500px;
+   height:500px;
+   margin-right:300px; 
+   border:1px solid white;
 
+}
 
  .fly-in-text{
   position:absolute;
-  left:30%;
-  top:30%;
+  left:10%;
+  top:10%;
+
+  
 
 
  }
 
  .fly-in-text li{
   display:inline-block;
-  margin-right:70px;
-  font-weight:400;
-  color:pink;
-  font-size:6em;
+  margin-right:20px;
+  font-weight:100;
+  color:white;
+  font-size:5em;
+  animation-name:moves;
+animation-duration: 5s;
+animation-iteration-count:infinite;
 
-
- }
-
+}
+@keyframes moves{
+ 1%{background-color:brown; left:0px; right:0px;}
+}
 
  .fly-in-text li:hover{
-  color:red;
+  color:purple;
   border:4px;
-
+  
  }
- 
- 
 .contact-title{
     margin-right:1500px;
     margin-top:100px;
     color:black;
     font-weight:bolder;
     color:blue;
-    height:90px;   
+    height:90px;  
+
 
 }  
 
@@ -103,6 +114,7 @@ h1{
    border:2px solid blue;
 
 }
+
 
 tr,th{
 color:white;
@@ -139,12 +151,18 @@ nav a:hover{
 .main{
 max-width:1000px;
 margin:auto;
+border-style:double color
+
 
 }
-
+.column a:hover{
+  color:green;
+}
 h1{
 font-size:80px;
 color:blue;
+}
+
 }
 
 .row{
@@ -163,17 +181,6 @@ float:left;
 width:50%;
 color:white;
 }
-/*responive*/
-@media screen and(max-width:900px){
-.column{
-width:50%; 
-
-}
-
-@media screen and(max-width:500px){
-.column{
-width:110px;
-}
 /*content*/
 .content{
 
@@ -182,11 +189,63 @@ padding:30px;
 
 .h3{
 height:10px;
-
-
 }
 
+}
+.ad{
+  height:90%;
+  width:0%;
+  position:fixed;
+  top:0;
+  left:0;
+  transition: 5s;
+  padding-top:60px;
+}
+.ad a{
+  text-decoration:none;
+  font-size:20px;
+  color:white;
+  display:block;
+  transition: 4s;
+}
+.ad a:hover{
+  color:grey;
+}
+@media screen and(max-width:500px){
+body{
+  background-color:black;
+  margin-bottom:30px;
 
+}
+#bad:checked:~.abp{
+  transition-duration:2%;
+  width:80px;
+  transform:none;
+}
+.abp{
+  transform: scale(0);
+  transform-origin:100 0%;
+  background-color:black;
+}
+.new{
+  width:3px;
+ display:block;
+ color:white;
+
+}
+.ad{
+  height:1px;
+  width:10px;
+  background-color:white;
+  margin:2px;
+}
+.a{
+  float:left;
+}
+#bad{
+  position:relative;
+  left:15px;
+}
 
 
 
